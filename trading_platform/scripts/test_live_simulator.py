@@ -93,9 +93,9 @@ def test_auto_simulator():
     
     try:
         simulator = LiveMarketSimulator(
-            total_points=30,
+            total_points=100,
             initial_price=45,
-            volatility=2.0,
+            volatility=1.5,
             save_to_csv=True
         )
         
